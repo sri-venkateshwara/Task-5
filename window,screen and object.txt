@@ -1,0 +1,20 @@
+In JavaScript, `window`, `screen`, and `document` are three different objects that are part of the browser environment. 
+Here's a brief explanation of each object and their differences:
+
+1. `window`: The `window` object represents the browser window or tab that contains the web page.
+ It is the global object in a browser environment and provides access to various properties and methods related to the browser window. 
+The `window` object is the top-level object and acts as the global scope for JavaScript in the browser. It includes properties such as `window.innerWidth`, `window.innerHeight`, `window.location`, and methods like `window.alert()` and `window.open()`. 
+
+2. `screen`: The `screen` object represents the user's screen or display.
+ It provides information about the user's screen size, color depth, and other screen-related properties. 
+Some commonly used properties of the `screen` object include `screen.width`, `screen.height`, `screen.availWidth`, and `screen.availHeight`. 
+These properties can be used to determine the available screen space and adjust the layout or behavior of web content accordingly.
+
+3. `document`: The `document` object represents the HTML document that is currently loaded in the browser window. 
+It provides access to the content of the web page and allows manipulation of the HTML structure, styling, and dynamic behavior through JavaScript.
+ The `document` object offers methods and properties to interact with elements in the HTML document, such as `document.getElementById()`, `document.querySelector()`, `document.createElement()`,
+ and many more. It allows you to modify the DOM (Document Object Model) structure, handle events, change styles, and update content dynamically.
+
+In summary, the `window` object represents the browser window or tab, the `screen` object represents the user's screen, 
+and the `document` object represents the loaded HTML document. 
+Each object serves a different purpose and provides different functionalities to interact with the browser environment and manipulate web content
